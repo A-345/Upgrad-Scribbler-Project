@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+/* importing google font for Scribber logo 
+as no font was specified in project detail */
+
+.input-buttons
+
+/*  signin signup div */
+    {
+    position: absolute;
+    right: 0px;
+    margin: 0.3rem;
+}
+
+#signin,
+/*  signin signup buttons */
+#signup {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    /* styling logo */
+    padding-top: 0;
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+
+#main {
+    /* main heading */
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    color: blue;
+    margin-left: 0.5%;
+}
+
+
+
+#signin {
+    margin-right: 0.3rem;
+}
+
+#signinModal,
+#signupModal,
+#penPostModal {
+    font-family: 'Fira Sans', sans-serif;
+    display: none;
+    /* hidden by default*/
+    position: fixed;
+    /* fix located */
+    z-index: 1;
+    /* place on the top*/
+    padding-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* auto scroll */
+    /* background-color: white; */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+#modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 350px;
+
+}
+
+.close {
+    position: absolute;
+    float: right;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    top: -1rem;
+    right: 0;
+    margin: 0.5rem;
+}
+
+
+.modal-header {
+    padding: 2px 16px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 16px 16px;
+
+}
+
+.modal-heading {
+    font-weight: 1.3rem;
+}
+
+.signin-option input,
+.signup-option input,
+.penPost-option input,
+.penPost-option textarea {
+    outline: 0;
+    background: #f3f1f1;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.signin-option button,
+.signup-option button,
+.penPost-option button {
+    text-transform: capitalize;
+    outline: 0;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: 0;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 15px;
+
+}
+
+.signin-option button,
+.signup-option button {
+
+    width: 100%;
+}
+
+.signin-option .signup-option,
+.penPost-option {
+    margin: 0.5rem;
+}
+
+.not-member {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#yes {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#show-signup a {
+    font-family: sans-serif;
+
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.labels {
+    font-weight: bolder;
+}
+
+#penPostModal #modal-content {
+    width: 70%;
+
+}
+
+#signupModal,
+#penPostModal {
+    padding-top: 20px;
+}
+
+.create-button {
+    width: 100%;
+    text-align: center;
+}
+
+.create-button button {
+    width: fit-content;
+}
+
+.penPost-option input {
+    width: 50%;
+}
+
+.penPost-option textarea {
+    border: 1px solid #bdafaf;
+}
+
+div#content-title {
+    padding-top: 0vh;
+    padding-bottom: 3vh;
+}
+
+div#content-text {
+    margin-bottom: 0vh;
+}
+
+h2#penPost-heading {
+    padding: 0;
+}

@@ -1,0 +1,46 @@
+body
+
+/* styling main page*/
+    {
+    margin: 0;
+    padding: 0;
+    background: url("../../images/background.jpg");
+    /* adding background color*/
+    background-repeat: no-repeat;
+    /* setting image to no repeat*/
+    background-size: cover;
+    /*  auto scaling of image to fit on display either zoom or shrink*/
+    height: 100vh;
+    /* set image to cover total height of window */
+}
+
+.post-buttons {
+    text-align: center;
+    /*  center horizontally*/
+    margin-top: 33vh;
+    /* center vertically*/
+}
+
+.buttonpost
+
+/* all posts and create post buttons */
+    {
+    background-color: rgb(233, 185, 55);
+    font-size: medium;
+    padding: 0.8rem 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.post-buttons a {
+    color: inherit;
+}
+
+.post-buttons a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-buttons a:visited {
+    color: inherit;
+}

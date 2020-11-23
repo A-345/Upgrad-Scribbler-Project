@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#comment-area {
+    max-width: 65%;
+}
+
+#heading-input {
+    text-align: center;
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2vh;
+    font-size: 30px;
+    /* font-family: 'Bree Serif', serif; */
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.post-option {
+    padding: 3vw;
+    /* width: 100vw; */
+}
+
+.author-option {
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-top: 0%;
+}
+
+
+.edit-content {
+    width: 100%;
+}
+
+#posttext {
+    width: 100%;
+    border: none;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 30vh;
+}
+
+#posttext:focus {
+    border: 3px solid rgb(192, 165, 192)
+}
+
+.edit-save {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.author-name {
+    width: 50%;
+    position: relative;
+    top: 37px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.edit-save button {
+    border: 0;
+    outline: 0;
+    padding: 11px 11px 11px 25px;
+    background: rgb(240, 20, 64);
+    box-shadow: 0px 10px 20px 0.1px rgb(240, 20, 64);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.like button {
+    margin-top: 3vh;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    background: rgb(240, 20, 64);
+    box-shadow: 0px 10px 20px 0.1px rgb(240, 20, 64);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comment button {
+    margin-top: 3vh;
+    padding: 10px 10px;
+    border: 0;
+    outline: 0;
+    background: rgb(240, 20, 64);
+    box-shadow: 0px 10px 20px 0.1px rgb(240, 20, 64);
+    color: white;
+    cursor: pointer;
+}
+
+.comment-list {
+    max-width: 65%;
+    background: rgb(238, 234, 238);
+    padding: 10px;
+}
+
+.user-comment {
+    /* box-sizing: border-box; */
+    padding: 10px;
+    box-sizing: border-box;
+
+    background: #ffffff;
+}
+
+p#like-people {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
