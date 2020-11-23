@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: orange;
+}
+
+.post-container {
+    margin-left: 10%;
+    /* margin-right: 10%; */
+}
+
+.post {
+    box-sizing: border-box;
+    width: 40%;
+    height: 160px;
+    display: inline-block;
+    background: #ece4e4;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-right: 9%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    ;
+
+}
+
+.post {
+    box-shadow: 1px 1px 1px white;
+}
+
+
+.post:last-of-type {
+    margin-left: 25%;
+}
+
+.author {
+    display: table-cell;
+    /* background: red; */
+    /* width: fit-content; */
+    height: 10rem;
+    width: 5rem;
+    text-align: center;
+    background: #ffffff;
+    /* padding-right: 3rem; */
+}
+
+/* .author p {
+    background-color: pink;
+    height: 10rem;
+    padding-right: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+    background: orange;
+    position: relative;
+    position: absolute;
+
+}
+*/
+
+.author-name {
+    margin-top: 10px;
+    position: relative;
+    top: 20%;
+    font-weight: bold;
+    /* margin: ; */
+}
+
+.content {
+    display: table-cell;
+    box-sizing: border-box;
+}
+
+.title {
+    display: inline;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.delete {
+    position: static;
+    font-size: 1.3rem;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    left: 70%;
+    cursor: pointer;
+}
+
+/* .elipses {
+    position: fixed;
+    background: red;
+} */
+
+
+
+.post-content {
+    padding: fit-content;
+    font-size: 14px;
+    height: 50px;
+    padding-top: 0;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+
+}
+
+.button {
+    position: static;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+
+.title {
+    font-size: 20px;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+#delete-modal {
+    z-index: 1;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.6s;
+    display: none;
+    position: fixed;
+    padding-top: 30vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+.delete-modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 350px;
+    text-align: center;
+}
+
+#yes-delete,
+#no-delete {
+    position: relative;
+    background-color: red;
+    border: none;
+    outline-style: none;
+    padding: 5% 20%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#no-delete {
+    background: green;
+    left: 9%;
+}
+
+#yes-delete {
+    left: -9%;
+
+}
+
+#close-delete {
+    float: right;
+    color: gray;
+    cursor: pointer;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.delete-modal-heading {
+    /* font-weight:  */
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button a:visited {
+    color: inherit;
+}
+
+p#tagline {
+    color: white;
+    font-weight: 600;
+}
+
+.post {
+    box-shadow: 1px 5px 5px rgb(122, 87, 21);
+}
