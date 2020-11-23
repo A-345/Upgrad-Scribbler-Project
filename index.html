@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- TODO: Include Font Awesome file here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./styles/css/index.css" />
+  <!-- Adding style for homepage-->
+  <link rel="stylesheet" href="./styles/css/header.css" />
+  <!-- Adding style for header -->
+</head>
+
+<body>
+  <div id="mainparent-signin"></div>
+  <div id="mainparent-signup"></div>
+
+  <div id="penPostModal" class="modal">
+    <div id="modal-content">
+      <div class="modal-header">
+        <div class="close">&times;</div>
+        <h2 class="modal-heading" id="penPost-heading">Pen Your Post</h2>
+      </div>
+      <div class="modal-body">
+        <div class="penPost-modal">
+          <form method="post" onsubmit="event.preventDefault(); myValidation();">
+            <div class="penPost-option" id="content-title">
+              <label for="Title" class="labels">Title:</label> <br>
+              <input type="text" id="Title" required>
+            </div>
+            <div class="penPost-option" id="content-text">
+              <label for="Content" class="labels">Content:</label> <br>
+              <textarea name="Content" id="Content" cols="300" rows="14" required></textarea>
+            </div>
+            <div class="penPost-option create-button">
+              <button class="penPost-button" type="submit">Create</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <!-- Adding naviagation-->
+    <div class="input-buttons">
+      <button id="signin">Sign In</button>
+      <button id="signup">Sign Up</button>
+    </div>
+    <div class="logo">
+      <!-- Adding Scribbler Logo Content-->
+      <p id="main">ScriBBler</p>
+      <p id="tagline">Explore, Imagine, Create</p>
+    </div>
+  </nav>
+
+  <section>
+    <!-- Adding Post Section -->
+    <div class="post-buttons">
+      <a href="./html/bloglist.html"><button id="button1" class="buttonpost"> All Posts</button></a>
+      <button id="button2" class="buttonpost">Create Post</button>
+    </div>
+  </section>
+  <script src="./scripts/js/header.js"></script>
+</body>
+
+</html>
