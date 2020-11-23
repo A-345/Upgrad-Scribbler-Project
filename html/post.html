@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../styles/css/header.css" />
+  <link rel="stylesheet" href="../styles/css/post.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script&family=Pragati+Narrow&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="mainparent-signin"></div>
+  <div id="mainparent-signup"></div>
+  <nav class="nav">
+    <!-- Adding naviagation-->
+    <div class="input-buttons">
+      <button id="signin">Sign In</button>
+      <button id="signup">Sign Up</button>
+    </div>
+    <div class="logo">
+      <!-- Adding Scribbler Logo Content-->
+      <p id="main">ScriBBler</p>
+      <p id="tagline">Explore, Imagine, Create</p>
+    </div>
+  </nav>
+  <div class="post-option">
+    <div class="post-title"> <input type="text" id="heading-input">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, nihil?</p>
+    </div>
+    <div class="author-option">
+      <div class="author-name">Jimi</div>
+      <div class="edit-save">
+        <button>Edit <i class="fa fa-edit"></i></button>
+      </div>
+    </div>
+    <div class="edit-content">
+      <textarea id="posttext"
+        cols="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, cum expedita aliquid nemo aperiam natus quo eaque commodi voluptates, fugit fugiat maxime ut ipsa neque fuga sequi iste, veniam enim! Aspernatur, doloremque. Atque facilis cumque reprehenderit, dolores autem nihil ea perferendis enim quisquam. Quae, delectus. Labore at veritatis repellat eos aliquam ipsam modi ratione quibusdam dolores incidunt itaque accusantium, nisi ut. Nihil itaque minus recusandae! Voluptatum, asperiores error tempora magnam consequuntur perspiciatis! Alias eum porro doloribus provident quis aperiam assumenda sequi, voluptas sunt minima? Quaerat, commodi reiciendis! Eum saepe nisi quibusdam repellat exercitationem totam? Necessitatibus impedit nisi unde veritatis ullam.</textarea>
+    </div>
+    <div class="like">
+      <button id="like-button">
+        <i class="fa fa-thumbs-up"></i> <span class="likebutton"> Like</span>
+      </button>
+      <p id="like-people">Be the first one to like this!</p>
+    </div>
+    <div class="comment">
+      <textarea id="comment-area" cols="100" rows="4" placeholder="Leave your comment..."></textarea>
+      <div id="comment">
+        <button id="comment-button">Comment</button>
+        <p id="comment-tag">All Comments</p>
+
+        <div class="comment-list"></div>
+      </div>
+    </div>
+  </div>
+  <script src="../scripts/js/header.js"></script>
+  <script src="../scripts/js/post.js"></script>
+</body>
+
+</html>
